@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131028083918) do
+ActiveRecord::Schema.define(:version => 20131030200928) do
+
+  create_table "payments", :force => true do |t|
+    t.integer  "service_id"
+    t.integer  "line_item_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.string   "title"
+  end
+
+  add_index "payments", ["service_id", "line_item_id"], :name => "index_payments_on_service_id_and_line_item_id", :unique => true
 
   create_table "posts", :force => true do |t|
     t.string   "title"
@@ -21,5 +31,11 @@ ActiveRecord::Schema.define(:version => 20131028083918) do
   end
 
   add_index "posts", ["permalink"], :name => "index_posts_on_permalink", :unique => true
+
+  create_table "services", :force => true do |t|
+    t.string   "title"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
 end

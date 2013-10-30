@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1382944529005" ignored="false" />
     <file path="/post_spec.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1382953439409" ignored="false" />
-    <file path="/Dummy.txt" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1382949555501" ignored="false" />
+    <file path="/Dummy.txt" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383163761501" ignored="false" />
     <file path="/posts.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1382949364734" ignored="false" />
     <file path="/post.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383150113759" ignored="false" />
     <file path="/20131028083918_add_permalink_to_post.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1382949598850" ignored="false" />
@@ -16,6 +16,11 @@
     <file path="/luhn_checker.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383157620826" ignored="false" />
     <file path="/Ruby Console" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383157737557" ignored="false" />
     <file path="/luhn_checker_spec.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383160224334" ignored="false" />
+    <file path="/service.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383162695305" ignored="false" />
+    <file path="/20131030195110_create_services.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383162710915" ignored="false" />
+    <file path="/20131030195305_create_payments.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383162917277" ignored="false" />
+    <file path="/payment.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383163332043" ignored="false" />
+    <file path="/20131030200928_add_title_to_payment.rb" changelist="2977e55b-e3f6-4084-b366-1c3c2c354e17" time="1383163786115" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,34 +48,25 @@
       <file leaf-file-name="post_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/post_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="59" selection-start="0" selection-end="660" vertical-scroll-proportion="0.0">
+            <state line="19" column="26" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="luhn_checker_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/lib/luhn_checker_spec.rb">
+      <file leaf-file-name="payment.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/payment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="77" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.84385765">
+            <state line="2" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.03444317">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="luhn_checker.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/luhn_checker.rb">
+      <file leaf-file-name="service.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/service.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/test.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="362" column="61" selection-start="37896" selection-end="37896" vertical-scroll-proportion="0.0">
+            <state line="1" column="2" selection-start="37" selection-end="59" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,10 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/.rspec" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131028083918_add_permalink_to_post.rb" />
         <option value="dbtable:/f76f535a/53a3cd91-d5dd-404f-8770-07b80424a9c4/..posts" />
         <option value="$PROJECT_DIR$/spec/factories/posts.rb" />
@@ -105,6 +97,11 @@
         <option value="$PROJECT_DIR$/lib/luhn_checker.rb" />
         <option value="$PROJECT_DIR$/log/test.log" />
         <option value="$PROJECT_DIR$/spec/lib/luhn_checker_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/service.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131030195110_create_services.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131030195305_create_payments.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131030200928_add_title_to_payment.rb" />
+        <option value="$PROJECT_DIR$/app/models/payment.rb" />
       </list>
     </option>
   </component>
@@ -197,7 +194,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="IRB console.Rails console: TestApp">
+  <component name="RunManager" selected="Rake.db:migrate">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="TestApp" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -597,11 +594,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: TestApp" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.posts:generate_permalinks" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:seed" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.db:test:clone" />
-        <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: TestApp" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.posts:generate_permalinks" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:seed" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.db:test:clone" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +637,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961375" sideWeight="0.5977778" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978541" sideWeight="0.37" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26008585" sideWeight="0.5977778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26008585" sideWeight="0.5977778" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45777777" sideWeight="0.5004292" order="7" side_tool="true" content_ui="tabs" />
@@ -716,45 +713,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="1" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f76f535a/53a3cd91-d5dd-404f-8770-07b80424a9c4/..posts">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="431" selection-end="431" vertical-scroll-proportion="0.20665902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f76f535a/a994e6df-4c7b-41fb-8c3e-1db9dfda56fc/..posts">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/posts.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="32" selection-start="224" selection-end="224" vertical-scroll-proportion="0.086107925">
@@ -797,23 +755,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/post_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="0" selection-end="660" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/factories/posts.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="39" selection-start="413" selection-end="413" vertical-scroll-proportion="0.3272101">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/luhn_checker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -827,7 +771,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/luhn_checker_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="77" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.84385765">
+        <state line="35" column="34" selection-start="718" selection-end="718" vertical-scroll-proportion="0.6027554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/luhn_checker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="225" selection-end="225" vertical-scroll-proportion="0.18943743">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131030195305_create_payments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="67" selection-start="246" selection-end="246" vertical-scroll-proportion="0.120551094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131030195110_create_services.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="115" selection-end="115" vertical-scroll-proportion="0.051664755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/post_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131030200928_add_title_to_payment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="104" selection-end="104" vertical-scroll-proportion="0.03444317">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="37" selection-end="59" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/payment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.03444317">
           <folding />
         </state>
       </provider>
